@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/gbooks";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 const routes = require("./routes/index.js");
 
 app.use(express.urlencoded({ extended: true }));
